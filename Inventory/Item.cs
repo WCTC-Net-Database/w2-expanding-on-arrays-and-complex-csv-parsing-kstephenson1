@@ -1,4 +1,4 @@
-﻿namespace w2_assignment_ksteph;
+﻿namespace w2_assignment_ksteph.Inventory;
 
 public class Item
 {

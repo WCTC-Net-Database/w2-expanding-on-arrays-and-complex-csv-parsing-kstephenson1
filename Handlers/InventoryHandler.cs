@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using w2_assignment_ksteph.Inventory;
 
-namespace w2_assignment_ksteph;
+namespace w2_assignment_ksteph.Handlers;
 
 public class InventoryHandler
 {
@@ -18,7 +19,7 @@ public class InventoryHandler
         }
         else
         {
-            List<Item> items = InventoryHandler.StringToItemList(inventory);
+            List<Item> items = StringToItemList(inventory);
 
             foreach (Item item in items)
             {

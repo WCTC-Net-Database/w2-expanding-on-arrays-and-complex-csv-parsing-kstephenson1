@@ -2,7 +2,7 @@
 using System.Globalization;
 using w2_assignment_ksteph.DataHelper;
 
-namespace w2_assignment_ksteph;
+namespace w2_assignment_ksteph.Handlers;
 
 // The CharacterHandler class contains methods that manipulate Character data, including displaying, adding, and leveling up characters.
 
