@@ -2,6 +2,8 @@
 
 using System.Diagnostics;
 
+// The DataHelper.Input class contains a few methods and overrides that assist in gaining input from the user that includes different levels of input validation.
+
 class Input
 {
 
@@ -166,7 +168,7 @@ class Input
 
     public static string GetYN(string prompt)
     {
-        List<string> allowedResponsesList = new() { "y", "n" };
+        List<string> allowedResponsesList = ["y", "n"];
         string? response;
 
         do
