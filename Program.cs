@@ -10,7 +10,7 @@ class Program
         // Will run until exit is selected
         while (true)
         {
-            Interface.MainMenu();
+            UserInterface.MainMenu();
 
             int selection = Input.GetInt(1, 4, "Value must be between 1-4"); // Uses a helper file to get an int between 1-4 from the user
 
@@ -30,6 +30,6 @@ class Program
             }
         }
 
-        Interface.ExitMenu();
+        UserInterface.ExitMenu();
     }
 }
