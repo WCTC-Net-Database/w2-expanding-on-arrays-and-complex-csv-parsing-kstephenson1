@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using w2_assignment_ksteph.Inventory;
 
-namespace w2_assignment_ksteph.Handlers;
+namespace w2_assignment_ksteph.Inventory;
 
-public class InventoryHandler
+public class InventoryManager
 {
     public static void ListInventory(string inventory) // Takes the inventory string from the csv file, splits it, and displays the inventory to the user.
     {

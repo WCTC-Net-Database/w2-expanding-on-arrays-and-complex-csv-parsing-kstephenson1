@@ -1,7 +1,7 @@
 ﻿namespace w2_assignment_ksteph;
 
 using DataHelper;
-using w2_assignment_ksteph.Handlers;
+using w2_assignment_ksteph.Character;
 
 class Program
 {
@@ -19,13 +19,13 @@ class Program
             switch (selection) // Checks the input from the user and responds appropriately.
             {
                 case 1:
-                    CharacterHandler.DisplayAllCharacters();
+                    CharacterManager.DisplayAllCharacters();
                     break;
                 case 2:
-                    CharacterHandler.NewCharacter();
+                    CharacterManager.NewCharacter();
                     break;
                 case 3:
-                    CharacterHandler.LevelUp();
+                    CharacterManager.LevelUp();
                     break;
             }
         }

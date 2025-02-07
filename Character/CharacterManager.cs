@@ -1,12 +1,14 @@
-﻿using CsvHelper;
+﻿namespace w2_assignment_ksteph.Character;
+
+using CsvHelper;
 using System.Globalization;
 using w2_assignment_ksteph.DataHelper;
+using w2_assignment_ksteph.Inventory;
 
-namespace w2_assignment_ksteph.Handlers;
 
 // The CharacterHandler class contains methods that manipulate Character data, including displaying, adding, and leveling up characters.
 
-public static class CharacterHandler
+public static class CharacterManager
 {
     public static void DisplayAllCharacters() //Displays each character's Name, 
     {
@@ -22,7 +24,7 @@ public static class CharacterHandler
         {
             DisplayCharacterInfo(character);
 
-            InventoryHandler.ListInventory(character.Inventory);
+            InventoryManager.ListInventory(character.Inventory);
         }
     }
 
