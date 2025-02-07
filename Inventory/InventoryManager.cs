@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace w2_assignment_ksteph.Inventory;
 
-namespace w2_assignment_ksteph.Inventory;
+using System;
+using System.Collections.Generic;
+
 
 public class InventoryManager
 {
